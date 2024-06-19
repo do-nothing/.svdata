@@ -1,0 +1,9 @@
+*
+
+!*/
+
+!.gitignore
+!.brinfo
+
+!*.encrypted
+!*.brmd

@@ -1,0 +1,8 @@
+// for mongodb atlas function `utils.crypto.sign("rsa", message, rsaPrivateKey, "pss");`
+// ssh-keygen -t rsa -b 2048 -m PEM -f rsakey_pem
+// ssh-keygen -f rsakey_pem -e -m PEM > rsakey_pem.pub
+
+// for allas function  const jwt = utils.jwt.encode(signingMethod, payload, jwtPrivateKey);
+// ssh-keygen -t rsa -b 2048 -m PKCS8 -f rsakey_jwt
+// ssh-keygen -f rsakey_jwt -e -m PKCS8 > rsakey_jwt.pub
+// change to    utf8 LF (no bom)
